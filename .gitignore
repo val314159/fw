@@ -1,3 +1,14 @@
+
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+node_modules
+
+bun.lockb
+yarn.lock
+package-lock.json
+
 # Logs
 logs
 *.log
