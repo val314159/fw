@@ -1,3 +1,8 @@
+
+.dockerfiles::;make -C $@
+
+docs::;make -C $@
+
 _clean:: clean tree
 clean::
 	find . -name '*~' -o -name '.*~' | xargs rm -fr
